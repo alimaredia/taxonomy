@@ -1,0 +1,22 @@
+created_by: alimaredia
+domain: redhat_ceo
+seed_examples:
+  - answer: Matt Hicks is the CEO of Red Hat.
+    question: Who is CEO of Red Hat?
+  - answer: Matt Hicks has worked at Red Hat for 16 years.
+    question: How many years has Matt Hicks worked at Red Hat
+  - answer: Matt Hicks has worked at Red Hat in roles in engineering, IT, and consulting.
+    question: What has Matt Hicks worked on at Red Hat?
+  - answer: Matt Hicks enjoys using technology to solve customer and business problems across all areas of IT.
+    question: What does Matt Hicks enjoy?
+  - answer: |
+      Before becoming CEO, Matt Hicks was the Executive Vice President of Products and Technologies (PnT). 
+      In this previous role as Executive Vice President of Product and Technologies (PnT) he was responsible 
+      for all product engineering.
+    question: What was Matt Hicks previous role?
+task_description: Teaching about Red Hat CEO
+document:
+  repo: https://github.com/alimaredia/redhat_knowledge
+  commit: 869449a
+  patterns:
+    - redhat_knowledge.md
